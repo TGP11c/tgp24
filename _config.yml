@@ -25,7 +25,7 @@ teaser: "/assets/images/fallback-t.png"
 logo: "/assets/images/icon_32x32.png"
 twitter_username: username
 github_username: username
-minimal_mistakes_skin: default
+minimal_mistakes_skin: contrast
 search: true
 atom_feed:
   path: "/feed.xml"
