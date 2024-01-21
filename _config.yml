@@ -15,7 +15,7 @@
 # in the templates via {{ site.myvariable }}.
 title: TGP
 email:
-description: >- # this means to ignore newlines until "baseurl:"
+description: "What up wit'dat?" # >- this means to ignore newlines until "baseurl:"
   Foorbarbazz.
 twitter_username: username
 github_username: username
@@ -103,7 +103,7 @@ defaults:
       type: pages
     values:
       layout: single
-      author_profile: true
+      author_profile: false
 
 category_archive:
   type: liquid
