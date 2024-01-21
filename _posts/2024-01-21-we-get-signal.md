@@ -2,6 +2,7 @@
 title: "We Get Signal"
 header:
   overlay_image: /assets/images/0w.png
+  overlay_filter: rgba(255, 0, 0, 0.5)
   caption: "Main screen turn on"
   actions:
     - label: "MOVE ZIG"
