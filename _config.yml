@@ -13,14 +13,30 @@
 # you will see them accessed via {{ site.title }}, {{ site.email }}, and so on.
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
+locale: "en-US"
 title: TGP
+title_separator: "-"
+subtitle: "2.0T"
 email:
 description: "What up wit'dat?" # >- this means to ignore newlines until "baseurl:"
-  Foorbarbazz.
+name: "Bash Gitterson.MD"
+description: "The Next Generation of TGP"
+teaser: "/assets/images/fallback-t.png"
+logo: "/assets/images/icon_32x32.png"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: default
 search: true
+atom_feed:
+  path: "/feed.xml"
+  hide: true # true, false (default)
+
+# Analytics
+analytics:
+  provider: "google" # false (default), "google", "google-universal", "google-gtag", "custom"
+  google:
+    tracking_id: "G-QKRV9DCBLF"
+    anonymize_ip: true # true, false (default)
 
 # Build settings
 markdown: kramdown
