@@ -96,6 +96,15 @@ defaults:
       type: posts
     values:
       layout: single
+      excerpt_separator: "<!--more-->"
+      categories:
+        - uncategorized
+      tags:
+        - untagged
+      header:
+        teaser: # /assets/images/posts/YOUR-POST-TITLE/YOUR-IMG-NAME.type
+        image: # /assets/images/posts/YOUR-POST-TITLE/YOUR-IMG-NAME.type
+      last_modified_at: true
       author_profile: true
       read_time: true
       comments: false
