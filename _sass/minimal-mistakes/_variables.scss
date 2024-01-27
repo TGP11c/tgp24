@@ -16,6 +16,7 @@ $indent-var: 1.3em !default;
 $serif: Georgia, Times, serif !default;
 $sans-serif: "Didact Gotthic", Arial, sans-serif !default;
 $monospace: Monaco, Consolas, "Lucida Console", monospace !default;
+$headers: "Fjalla One" !default;
 
 /* sans serif typefaces */
 $sans-serif-narrow: "Didact Gothic", $sans-serif !default;
@@ -29,7 +30,7 @@ $calisto: "Calisto MT", serif !default;
 $garamond: Garamond, serif !default;
 
 $global-font-family: $sans-serif !default;
-$header-font-family: $sans-serif !default;
+$header-font-family: $headers !default;
 $caption-font-family: $sans-serif !default;
 
 /* type scale */
