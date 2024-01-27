@@ -14,15 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "en-US"
-title: TGP
-title_separator: "-"
-subtitle: "2.0T"
+title: The Gearhead Project
+title_separator: "|"
+subtitle: "TGP 2.0T"
 email:
 description: "What up wit'dat?" # >- this means to ignore newlines until "baseurl:"
 name: "Bash Gitterson.MD"
 description: "The Next Generation of TGP"
 teaser: "/assets/images/fallback-t.png"
-logo: "/assets/images/icon_32x32.png"
+logo: "/assets/images/logo_magazine_1520x250x72.png"
 twitter_username: username
 github_username: username
 minimal_mistakes_skin: contrast
@@ -79,24 +79,12 @@ author:
     - label: "Website"
       icon: "fas fa-fw fa-link"
       url: "https://"
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
 
 footer:
   links:
-    - label: "Twitter"
-      icon: "fab fa-fw fa-twitter-square"
-      url: "https://twitter.com/"
-    - label: "GitHub"
-      icon: "fab fa-fw fa-github"
-      url: "https://github.com/"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
@@ -110,7 +98,7 @@ defaults:
       layout: single
       author_profile: true
       read_time: true
-      comments: true
+      comments: false
       share: true
       related: true
   # _pages
