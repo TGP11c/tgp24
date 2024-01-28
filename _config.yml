@@ -21,7 +21,7 @@ email:
 description: "Description" # >- this means to ignore newlines until "baseurl:"
 name: "Bash Gitterson.MD"
 description: "The Next Generation of TGP"
-teaser: "/assets/images/fallback-t.png"
+teaser: "/assets/images/site/fallback.png"
 logo: "/assets/images/logo_magazine_1520x250x72.png"
 minimal_mistakes_skin: contrast
 search: true
