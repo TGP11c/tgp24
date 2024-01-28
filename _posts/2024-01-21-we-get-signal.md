@@ -1,8 +1,9 @@
 ---
 title: "We Get Signal"
+tagline: "Main screen turn on. Take off every zig for great justice."
 header:
   teaser: /assets/images/posts/we-get-signal/0w.png
-  image: /assets/images/posts/we-get-signal/0w.png
+  overlay_image: /assets/images/posts/we-get-signal/0w.png
 layout: single
 excerpt_separator: "<!--more-->"
 categories:
@@ -10,7 +11,7 @@ categories:
   - shenanigans
 tags:
   - implementation
-last_modified_at: 2024-01-27
+last_modified_at: 2024-01-28
 ---
 
 I combined all the included demo posts content into this post to clean things up (and make it easier for me to find what I'm after). 
