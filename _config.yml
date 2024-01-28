@@ -17,17 +17,12 @@ locale: "en-US"
 title: 
 title_separator: "|"
 subtitle: 
-title: The Gearhead Project
-title_separator: "|"
-subtitle: "TGP 2.0T"
 email:
-description: "What up wit'dat?" # >- this means to ignore newlines until "baseurl:"
+description: "Description" # >- this means to ignore newlines until "baseurl:"
 name: "Bash Gitterson.MD"
 description: "The Next Generation of TGP"
 teaser: "/assets/images/fallback-t.png"
 logo: "/assets/images/logo_magazine_1520x250x72.png"
-twitter_username: username
-github_username: username
 minimal_mistakes_skin: contrast
 search: true
 atom_feed:
@@ -46,7 +41,7 @@ markdown: kramdown
 remote_theme: mmistakes/minimal-mistakes
 # Outputting
 permalink: /:categories/:title/
-paginate: 5 # amount of posts to show
+paginate: 3 # amount of posts to show
 paginate_path: /page:num/
 timezone: /America-Chicago
 
@@ -75,13 +70,13 @@ plugins:
   - jekyll-include-cache
 
 author:
-  name   : "Bash Gitterson"
+  name   : "TGP"
   avatar : "/assets/images/bio-photo.jpg"
   bio    : "My awesome biography constrained to a sentence or two goes here."
   links:
     - label: "Website"
       icon: "fas fa-fw fa-link"
-      url: "https://"
+      url: "https://forum.thegearheadproject.com"
     - label: "Instagram"
       icon: "fab fa-fw fa-instagram"
       url: "https://instagram.com/"
