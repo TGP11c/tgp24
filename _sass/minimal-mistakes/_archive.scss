@@ -6,54 +6,15 @@
   margin-top: 1em;
   margin-bottom: 2em;
 
-  @include breakpoint($small) {
-    float: left;
-    width: span(1 of 2); //5 10
-
-    &:nth-child(2n) {
-    clear: both;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
-    margin-top: 0.5em;
-    margin-left: 1em;
-    }
-  }
-
-  @include breakpoint($medium) {
-    margin-left: 1em; /* override margin*/
-    margin-right: 1em; /* override margin*/
-    width: span(1 of 2); //3 12
-
-    &:nth-child(2n) {
-    clear: both;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
-    }
-  }
-	
   @include breakpoint($large) {
-    @include span(1 of 2); //4 12
     float: right;
     width: calc(100% - #{$right-sidebar-width-narrow});
     padding-right: $right-sidebar-width-narrow;
-
-    &:nth-child(2n) {
-    clear: both;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
-    }
   }
 
   @include breakpoint($x-large) {
-    @include gallery(4 of 12);
     width: calc(100% - #{$right-sidebar-width});
     padding-right: $right-sidebar-width;
-
-    &:nth-child(2n) {
-    clear: both;
-    width: calc(100% - #{$right-sidebar-width-narrow});
-    padding-right: $right-sidebar-width-narrow;
-    }
   }
 }
 
