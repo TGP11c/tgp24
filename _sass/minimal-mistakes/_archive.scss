@@ -45,7 +45,7 @@
 
 .archive__item-title {
   margin-bottom: 0.25em;
-  font-family: "Fjalla One","Didact Gotthic", Arial, sans-serif;
+  font-family: $headers;
   line-height: initial;
   overflow: hidden;
   text-overflow: ellipsis;
@@ -213,7 +213,6 @@
 
   .archive__item-title {
     margin-top: 0.5em;
-    font-family: "Fjalla One","Didact Gotthic", Arial, sans-serif;
     font-size: $type-size-5;
   }
 
@@ -428,7 +427,6 @@
 .archive {
   .feature__wrapper {
     .archive__item-title {
-      font-family: "Fjalla One","Didact Gotthic", Arial, sans-serif;
       margin-top: 0.25em;
       font-size: 1em;
     }
