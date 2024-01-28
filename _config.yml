@@ -14,9 +14,15 @@
 # You can create any custom variable you would like, and they will be accessible
 # in the templates via {{ site.myvariable }}.
 locale: "en-US"
+<<<<<<< Updated upstream
 title: 
 title_separator: "|"
 subtitle: 
+=======
+title: The Gearhead Project
+title_separator: "|"
+subtitle: "TGP 2.0T"
+>>>>>>> Stashed changes
 email:
 description: "What up wit'dat?" # >- this means to ignore newlines until "baseurl:"
 name: "Bash Gitterson.MD"

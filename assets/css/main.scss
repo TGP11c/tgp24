@@ -9,3 +9,13 @@ $link-color: red;
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+// custom
+
+.site-title {
+	font: "Fjalla One";
+	}
+
+.masthead__menu {
+	color: red:
+	}
