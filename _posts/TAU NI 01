@@ -1,0 +1,18 @@
+---
+title: "TAU NI - 01"
+tagline: "This is a new post."
+header:
+  teaser: /assets/images/posts/we-get-signal/0w.png
+  overlay_image: /assets/images/posts/we-get-signal/0w.png
+layout: single
+excerpt_separator: "<!--more-->"
+categories:
+  - tau.ni
+  - shenanigans
+tags:
+  - exploration
+  - discovery
+last_modified_at: 2024-06-10
+---
+
+WIP
