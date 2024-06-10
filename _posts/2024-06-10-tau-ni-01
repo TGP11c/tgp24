@@ -2,8 +2,8 @@
 title: "TAU NI - 01"
 tagline: "This is a new post."
 header:
-  teaser: /assets/images/posts/we-get-signal/0w.png
-  overlay_image: /assets/images/posts/we-get-signal/0w.png
+  teaser: /assets/images/posts/tauni-01/tauni01.png
+  overlay_image: /assets/images/posts/tauni01/tauni01.png
 layout: single
 excerpt_separator: "<!--more-->"
 categories:
